@@ -1,0 +1,21 @@
+.chords {
+  display: grid;
+  grid-gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .chords {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .chords {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.chord-image {
+  width: 100%;
+  max-width: 100%;
+}
